@@ -27,3 +27,9 @@ We will use Llama 7B as the language model, and langchain for integration of the
 These notes reproduce the first example on least-squares Monte-Carlo from paper _Valuing American Options by Simulation: A Simple Least-Squares Approach_ by Longstaff and Schwartz, [available here](https://people.math.ethz.ch/~hjfurrer/teaching/LongstaffSchwartzAmericanOptionsLeastSquareMonteCarlo.pdf).
 
 The [R Code](Least-Squares-Monte-Carlo-American-Put.Rmd) is also available.
+
+----
+
+[Proof of Thieles Differential Equation](https://github.com/adrische/actuary/blob/master/selected-topics-in-life-insurance/Thieles-Differential-Equation.pdf)
+
+We prove Thiele's differential equation in continuous time from scratch (ignoring some technical details). This write-up tries to spell out all steps in the derivation of this equation, following M. Koller's lecture notes on "Selected Topics in Life Insurance" (not publicly available).
