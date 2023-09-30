@@ -20,3 +20,10 @@ Additionally, we want to do run the language model locally. This has advantages 
 
 We will use Llama 7B as the language model, and langchain for integration of the other necessary pieces. 
 
+----
+
+[Least-Squares Monte-Carlo for an American Put Option](Least-Squares-Monte-Carlo-American-Put.pdf)
+
+These notes reproduce the first example on least-squares Monte-Carlo from paper _Valuing American Options by Simulation: A Simple Least-Squares Approach_ by Longstaff and Schwartz, [available here](https://people.math.ethz.ch/~hjfurrer/teaching/LongstaffSchwartzAmericanOptionsLeastSquareMonteCarlo.pdf).
+
+The [R Code](Least-Squares-Monte-Carlo-American-Put.Rmd) is also available.
