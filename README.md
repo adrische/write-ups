@@ -4,6 +4,23 @@ A place to collect write-ups, notes, and tutorials.
 
 ----
 
+[A tiny introduction to a Poisson Generalized Linear Model (GLM), spelled-out in code](GLM.pdf)
+
+This is an introduction to a very simple example of a Poisson GLM in R. The goal is that we understand and manually implement all output of `summary()` for this special case. This includes:
+
+* how the GLM is fitted to the data,
+* how to predict from the GLM,
+* how categorical vs. numerical variables influence the fit,
+* the derivation and interpretation of quality of fit indicators (deviance and AIC),
+* one possibility to test for statistical significance of including an additional parameter in the model (likelihood ratio test),
+* the meaning and derivation of parameter standard errors and p-values.
+
+The emphasis is on the expositional code, rather than on mathematical derivations or intuition for the quantities introduced.
+
+The [R Code](GLM.Rmd) is also available.
+
+----
+
 [Slides of actuarial colloqium](https://github.com/adrische/actuary/blob/master/colloquium/Adrian%20Scheerer%20SAV%20Kolloquium%20Presentation.pdf)
 
 These are the slides (in German) that I prepared for the last exam (colloquium) to become an actuary (member of Swiss Association of Actuaries, SAV). The topic was _Steigende Teuerungsraten: Chancen und Risiken im Reserving und Risk Management aus aktuarieller Sicht_, which roughly translates as _Rising inflation rates: opportunities and risks in reserving and risk management from an actuarial perspective_. The slides are also available in the [collection of colloquium slides](https://www.actuaries.ch/de/fach-arbeitsgruppen/junge-aktuare/pruefungskolloquium) by the SAV young actuaries.
