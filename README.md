@@ -4,6 +4,12 @@ A place to collect write-ups, notes, and tutorials.
 
 ----
 
+[Slides of actuarial colloqium](https://github.com/adrische/actuary/blob/master/colloquium/Adrian%20Scheerer%20SAV%20Kolloquium%20Presentation.pdf)
+
+These are the slides (in German) that I prepared for the last exam (colloquium) to become an actuary (member of Swiss Association of Actuaries, SAV). The topic was "Steigende Teuerungsraten: Chancen und Risiken im Reserving und Risk Management aus aktuarieller Sicht", which roughly translates as "Rising inflation rates: opportunities and risks in reserving and risk management from an actuarial perspective". The slides are also available in the [collection of colloquium slides](https://www.actuaries.ch/de/fach-arbeitsgruppen/junge-aktuare/pruefungskolloquium) by the SAV young actuaries.
+
+----
+
 [Machine learning model validation](machine-learning-model-validation.md)
 
 The use of machine learning models quickly expands to business areas with strong regulation, such as finance and medicine. Machine learning models and their validation differ substantially from classical models and classical model validation. Regulators, model validation teams and model developers need to adjust to different requirements on model validation and model development.
