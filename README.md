@@ -4,6 +4,12 @@ A place to collect write-ups, notes, and tutorials.
 
 ----
 
+[A simple two-layer feed forward network with manual backpropagation](manual-backpropagation-example.py)
+
+This is a short expository Python code of a tiny neural net, written from scratch in Numpy with manual backpropagation. We then verify gradients with Pytorch.
+
+----
+
 [A tiny introduction to a Poisson Generalized Linear Model (GLM), spelled-out in code](GLM.pdf)
 
 This is an introduction to a very simple example of a Poisson GLM in R. The goal is that we understand and manually implement all output of `summary()` for this special case. This includes:
