@@ -4,6 +4,19 @@ A place to collect write-ups, notes, and tutorials.
 
 ----
 
+#### Textcomparison
+
+This is a web app to calculate different metrics to compare two texts.
+
+You can compare two texts at the character-level (Levenshtein distance), word-level (BLEU score), or with a metric that respects the meaning (BERTScore using embeddings). 
+You can also ask a language model to compare the two texts (this requires a valid OpenAI API key). 
+
+The website is available at <a href="http://textcomparison.pythonanywhere.com" target="_blank">textcomparison.pythonanywhere.com</a> (it may take some time to load),
+and the repository is available [here](https://github.com/adrische/textcomparison).
+
+----
+
+
 [A simple two-layer feed forward network with manual backpropagation](manual-backpropagation-example.py)
 
 This is a short expository Python code of a tiny neural net, written from scratch in Numpy with manual backpropagation. We then verify gradients with Pytorch.
