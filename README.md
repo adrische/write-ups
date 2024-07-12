@@ -2,7 +2,8 @@
 
 A place to collect write-ups, notes, and tutorials.
 
-----
+## Machine learning
+
 
 #### Textcomparison
 
@@ -16,12 +17,34 @@ and the repository is available [here](https://github.com/adrische/textcompariso
 
 ----
 
-
 [A simple two-layer feed forward network with manual backpropagation](manual-backpropagation-example.py)
 
 This is a short expository Python code of a tiny neural net, written from scratch in Numpy with manual backpropagation. We then verify gradients with Pytorch.
 
 ----
+
+[Ask questions to your PDF documents - a tutorial](Ask%20questions%20to%20your%20PDF%20documents%20-%20a%20tutorial.ipynb)
+
+In this notebook, we use a large language model to ask and answer questions to PDF documents. You may want to do this with non-publically available documents, or with documents that appeared after the language model was trained.
+
+Additionally, we want to do run the language model locally. This has advantages for privacy and confidentiality (if you cannot send your data to a remote service).
+
+We will use Llama 7B as the language model, and langchain for integration of the other necessary pieces.
+
+----
+
+[Machine learning model validation](machine-learning-model-validation.md)
+
+The use of machine learning models quickly expands to business areas with strong regulation, such as finance and medicine. Machine learning models and their validation differ substantially from classical models and classical model validation. Regulators, model validation teams and model developers need to adjust to different requirements on model validation and model development.
+
+These notes aim to go into detail what topics model validation of machine learning models should address.
+
+
+
+
+----
+
+## Actuarial
 
 [A tiny introduction to a Poisson Generalized Linear Model (GLM), spelled-out in code](GLM.pdf)
 
@@ -43,24 +66,6 @@ The [R Code](GLM.Rmd) is also available.
 [Slides of actuarial colloqium](https://github.com/adrische/actuary/blob/master/colloquium/Adrian%20Scheerer%20SAV%20Kolloquium%20Presentation.pdf)
 
 These are the slides (in German) that I prepared for the last exam (colloquium) to become an actuary (member of Swiss Association of Actuaries, SAV). The topic was _Steigende Teuerungsraten: Chancen und Risiken im Reserving und Risk Management aus aktuarieller Sicht_, which roughly translates as _Rising inflation rates: opportunities and risks in reserving and risk management from an actuarial perspective_. The slides are also available in the [collection of colloquium slides](https://www.actuaries.ch/de/fach-arbeitsgruppen/junge-aktuare/pruefungskolloquium) by the SAV young actuaries.
-
-----
-
-[Machine learning model validation](machine-learning-model-validation.md)
-
-The use of machine learning models quickly expands to business areas with strong regulation, such as finance and medicine. Machine learning models and their validation differ substantially from classical models and classical model validation. Regulators, model validation teams and model developers need to adjust to different requirements on model validation and model development.
-
-These notes aim to go into detail what topics model validation of machine learning models should address.
-
-----
-
-[Ask questions to your PDF documents - a tutorial](Ask%20questions%20to%20your%20PDF%20documents%20-%20a%20tutorial.ipynb)
-
-In this notebook, we use a large language model to ask and answer questions to PDF documents. You may want to do this with non-publically available documents, or with documents that appeared after the language model was trained.
-
-Additionally, we want to do run the language model locally. This has advantages for privacy and confidentiality (if you cannot send your data to a remote service).
-
-We will use Llama 7B as the language model, and langchain for integration of the other necessary pieces. 
 
 ----
 
