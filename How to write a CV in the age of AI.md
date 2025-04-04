@@ -23,6 +23,6 @@ Observations:
 * It still takes time to make a proper professional solution, for example if you have errors in the formatting of the automatically generated files. Currently I don't know whether AI also reduces the time to a full professional solution as much as it reduces the time to a first working prototype.
 * You absolutely need to review the AI output.
 
-Personally, I don't actually recommend following an approach like this and would definitely recommend to still write everything by yourself.
+Personally, I don't actually recommend following an approach like this and would definitely recommend to still write everything by yourself. The background to this post is that I worked on a project to automate this process and found the above workflow which is essentially trivial and achieves what I wanted. Now I can work on other projects!
 
 I sometimes review CVs, please don't hesitate to reach out. I got [positive feedback](https://github.com/adrische/quant-jobs-zurich/blob/master/CV-review-feedback.txt).
