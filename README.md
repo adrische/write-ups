@@ -2,6 +2,12 @@
 
 A place to collect write-ups, notes, and tutorials.
 
+*Contents*
+
+* [Machine learning](#machine-learning)
+* [Actuarial](#actuarial)
+* [Other](#other)
+
 ## Machine learning
 
 
@@ -80,3 +86,16 @@ The [R Code](Least-Squares-Monte-Carlo-American-Put.Rmd) is also available.
 [Proof of Thieles Differential Equation](https://github.com/adrische/actuary/blob/master/selected-topics-in-life-insurance/Thieles-Differential-Equation.pdf)
 
 We prove Thiele's differential equation in continuous time from scratch (ignoring some technical details). This write-up tries to spell out all steps in the derivation of this equation, following M. Koller's lecture notes on "Selected Topics in Life Insurance" (not publicly available).
+
+
+
+----
+
+## Other
+
+[How to write a CV in the age of AI](How%20to%20write%20a%20CV%20in%20the%20age%20of%20AI.md)
+
+I describe a workflow with Claude Projects how to automatically generate a CV and motivation letter that are targeted at a specific job opening. Note: I don't actually recommend following this approach. The background is that I worked on a project to automate this process and found this essentially trivial workflow achieving what I wanted.
+
+
+
