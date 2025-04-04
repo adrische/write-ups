@@ -16,7 +16,7 @@ I followed the following steps:
   * Either by opening the html file in a browser and saving it to PDF,
   * or with the following command: wkhtmltopdf --enable-local-file-access CV.html CV.pdf
 * Alternatively you could convert the html to word with the command pandoc CV.html -o CV.docx and further edit it there
-* Similar steps should work with a letter of motivation
+* Similar steps should work with a letter of motivation, or to get a review of your existing CV
 
 Observations:
 * This is a basic automation workflow and took me less than an hour to set up. The time to get a first working prototype is much reduced compared to the classical way of fully manually writing a CV and tailoring your application to the position.
