@@ -97,5 +97,15 @@ We prove Thiele's differential equation in continuous time from scratch (ignorin
 
 I describe a workflow with Claude Projects how to automatically generate a CV and motivation letter that are targeted at a specific job opening. Note: I don't actually recommend following this approach. The background is that I worked on a project to automate this process and found this essentially trivial workflow achieving what I wanted.
 
+----
+
+[On working 80%](on-working-80%25.md)
+
+A year ago, I decided to reduce my employment level from 100% to 80% and to take Fridays off.
+
+My main motivation was to have some time for myself: Relax, reduce my stress level from work, have more time for side projects, do more sports, and maybe spend more time with my wife without the kids. This was only partially successful as there were a few things I had not realized beforehand. 
+
+I’d like to describe my experience, and will focus on the effects this change had on my work, financial situation, side projects, and personal life / health.
+
 
 
