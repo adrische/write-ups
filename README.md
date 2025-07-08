@@ -107,5 +107,10 @@ My main motivation was to have some time for myself: Relax, reduce my stress lev
 
 I’d like to describe my experience, and will focus on the effects this change had on my work, financial situation, side projects, and personal life / health.
 
+----
 
+[Lessons learned from designing and running a technical data science mentoring program](https://github.com/adrische/write-ups/blob/main/Data%20science%20mentorship%20program.md)
 
+I recently organized a data science mentorship program at my organization. I realized there are lots of resources available on career mentoring, some of which are applicable to technical skills mentoring, but not all. I did find a few resources specifically related to data science mentoring, but there do not seem to be too many resources available yet, which is why I'm sharing my experiences here.
+
+The article follows the structure of the program, with a focus on how I approached each step, and what could be done differently next time.
