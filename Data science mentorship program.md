@@ -66,7 +66,7 @@ Some guidance on how to structure the time until the end of the program could be
 2. the actual project work;   
 3. 2 weeks to clean up and prepare the final presentation.
 
-## Conclusion of program
+## Conclusion of the program
 
 The program ended with a final presentation. Each mentee presented their project, and both mentee and mentor commented on how they perceived the program and what their key learnings and challenges were. I didn't want to overburden the mentees with creating a presentation rather than focussing on the actual project, so the presentation could be very informal. 
 
