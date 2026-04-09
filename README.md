@@ -10,6 +10,13 @@ A place to collect write-ups, notes, and tutorials.
 
 ## Machine learning
 
+#### Some more thoughts on debugging RL implementations
+
+Recently, I have tried to implemented a number of RL algorithms such as [PPO](https://github.com/adrische/Reimplementing-PPO) for Mujoco and reduced versions of [DQN](https://github.com/adrische/MuZero-MsPacman#dqn-notebook) for Pong and [MuZero](https://github.com/adrische/MuZero-MsPacman#muzero-notebook-for-cartpole) (only for CartPole...) and I wanted to share some impressions from debugging these implementations. Many points have already been written up in other posts (see some links below), so I'll focus on what I found most important.
+
+The full post is on [Reddit](https://www.reddit.com/r/reinforcementlearning/comments/1sgnz5m/some_more_thoughts_on_debugging_rl_implementations/)
+
+----
 
 #### Textcomparison
 
