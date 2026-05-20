@@ -10,6 +10,13 @@ A place to collect write-ups, notes, and tutorials.
 
 ## Machine learning
 
+#### [Don't install legacy Nvidia Software](Dont-install-legacy-Nvidia-software.md)
+
+I have a Nvidia GeForce GTX 1050 Ti which is based on the Pascal architecture that is no longer supported by Nvidia. For example, the up to date version of Nsight Compute is not working for it. So I tried to install an older version of Nsight Compute that still supports my card. This brought an entire rat's tail of required downgrades of dependent software with it.
+Depending on how you value your time, consider getting a GPU that's still supported.
+
+----
+
 #### Some more thoughts on debugging RL implementations
 
 Recently, I have tried to implemented a number of RL algorithms such as [PPO](https://github.com/adrische/Reimplementing-PPO) for Mujoco and reduced versions of [DQN](https://github.com/adrische/MuZero-MsPacman#dqn-notebook) for Pong and [MuZero](https://github.com/adrische/MuZero-MsPacman#muzero-notebook-for-cartpole) (only for CartPole...) and I wanted to share some impressions from debugging these implementations. Many points have already been written up in other posts (see some links below), so I'll focus on what I found most important.
