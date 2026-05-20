@@ -33,7 +33,7 @@ I have Ubuntu 22.04.
 
 #### In new kernel:
 * Remove all Nvidia packages: `sudo apt remove --purge *nvidia*`
-* Add driver repo: `https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa`
+* Add driver repo: https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
 * Install driver first (with same `gcc`, `g++` versions as kernel was built with, likely version 13, i.e., `gcc --version` should return 13): `sudo apt install nvidia-driver-535`
 
 #### Install Nvidia software:
