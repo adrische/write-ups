@@ -10,6 +10,12 @@ A place to collect write-ups, notes, and tutorials.
 
 ## Machine learning
 
+[Fast vector addition on A100 - 80 GB](https://github.com/adrische/learn-cuda/tree/main/Own-Kernels/GPUMODE)
+
+My solution to the [GPU Mode leaderboard for vector addition](https://www.gpumode.com/leaderboard/543?tab=rankings). Is based on interpreting 8 float16 as 4 float32 (or one float4, to be precise) to saturate memory bandwidth, doing the calculations using the half2 vector type to maximize arithmetic efficiency, and finding the fastest load / store operations, and the finding best launch configuration. At time of writing this approach was listed at 6th place (tied with places 6-9), and I have run out of ideas what to try. The currently best solution is 0.27% (2.4 μs) faster.
+
+----
+
 #### [Don't install legacy Nvidia Software](Dont-install-legacy-Nvidia-software.md)
 
 I have a Nvidia GeForce GTX 1050 Ti which is based on the Pascal architecture that is no longer supported by Nvidia. For example, the up to date version of Nsight Compute is not working for it. So I tried to install an older version of Nsight Compute that still supports my card. This brought an entire rat's tail of required downgrades of dependent software with it.
